@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>See the Output on Console!!</h1>
+    <script>
+        var inputArray = [2,4,6,8,10];
+        var sortedArray = (inputArray.sort((a, b) => a - b)).reverse();
+        const middleIndex = Math.ceil(sortedArray.length / 2);
+        const firstHalf = sortedArray.splice(0, middleIndex);   
+        const secondHalf = (sortedArray.splice(-middleIndex)).reverse();
+        var finalArray = [];
+        for (let i = 0; i < firstHalf.length; i++) {
+            finalArray.push(firstHalf[i])
+            if(secondHalf[i] !=undefined) {
+                finalArray.push(secondHalf[i])
+            }
+        }
+        console.log(finalArray)
+    </script>
+    
+</body>
+</html>
