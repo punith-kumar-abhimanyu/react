@@ -15,7 +15,7 @@ class App extends React.Component {
         addOn:[
           {
             addOnName:"Milk",
-            price:50,
+            price:60,
             selectedQuantity:0
           },
           {
@@ -36,17 +36,17 @@ class App extends React.Component {
         addOn:[
           {
             addOnName:"Milk",
-            price:50,
+            price:80,
             selectedQuantity:0
           },
           {
             addOnName:"Cream",
-            price:75,
+            price:90,
             selectedQuantity:0
           },
           {
             addOnName:"Latte",
-            price:100,
+            price:125,
             selectedQuantity:0
           }
         ]
@@ -57,17 +57,17 @@ class App extends React.Component {
         addOn:[
           {
             addOnName:"Milk",
-            price:50,
+            price:100,
             selectedQuantity:0
           },
           {
             addOnName:"Cream",
-            price:75,
+            price:125,
             selectedQuantity:0
           },
           {
             addOnName:"Latte",
-            price:100,
+            price:150,
             selectedQuantity:0
           }
         ]
